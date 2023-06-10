@@ -1,0 +1,17 @@
+﻿@page
+@using Practica_Mercantil.Components
+
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Práctica Mercantil</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<button class="btn btn-primary mb-1">Nuevo registro</button>
+
+@(await Html.RenderComponentAsync<WorkerList>(RenderMode.ServerPrerendered))
+<script src="_framework/blazor.server.js"></script>

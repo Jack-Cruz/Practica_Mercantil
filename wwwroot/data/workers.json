@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "Tipo_documento": "DNI",
+    "Nro_documento": "74948820",
+    "Nombres": "Franci Rene Romero Alzamora",
+    "Sexo": "M",
+    "Departamento": "Lima",
+    "Provincia": "Lima",
+    "Distrito": "Lima"
+  },
+  {
+    "id": 2,
+    "Tipo_documento": "DNI",
+    "Nro_documento": "32980463",
+    "Nombres": "Dennis Gonzales Espejo",
+    "Sexo": "M",
+    "Departamento": "Lima",
+    "Provincia": "Barranca",
+    "Distrito": "Barranca"
+  }
+]
